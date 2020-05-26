@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:flutter/material.dart';
-//import 'package:flutterworld/screen/home_screen.dart';
+import 'package:flutterworld/screen/home_screen.dart';
 //import 'package:flutterworld/screen/like_screen.dart';
 //import 'package:flutterworld/screen/more_screen.dart';
 //import 'package:flutterworld/screen/search_screen.dart';
@@ -30,6 +28,10 @@ class _MyAppState extends State<MyApp> {
           body: TabBarView(
             physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
+              HomeScreen(),
+              Container(child: Center(child: Text('Search'),),),
+              Container(child: Center(child: Text('Save'),),),
+              Container(child: Center(child: Text('More'),),),
               //HomeScreen(),
               //SearchScreen(),
               //LikeScreen(),
