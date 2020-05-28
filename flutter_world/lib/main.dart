@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutterworld/screen/home_screen.dart';
-//import 'package:flutterworld/screen/like_screen.dart';
-//import 'package:flutterworld/screen/more_screen.dart';
-//import 'package:flutterworld/screen/search_screen.dart';
+import 'package:flutterworld/screen/like_screen.dart';
+import 'package:flutterworld/screen/more_screen.dart';
+import 'package:flutterworld/screen/search_screen.dart';
 import 'package:flutterworld/widget/bottom_bar.dart';
 
 void main() => runApp(MyApp());
@@ -12,11 +12,11 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  TabController controller;     //Tab controller for all
+  TabController controller;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Lukifliex',
+      title: 'LukiFlix',
       theme: ThemeData(
         brightness: Brightness.dark,
         primaryColor: Colors.black,
@@ -29,13 +29,9 @@ class _MyAppState extends State<MyApp> {
             physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
               HomeScreen(),
-              Container(child: Center(child: Text('Search'),),),
-              Container(child: Center(child: Text('Save'),),),
-              Container(child: Center(child: Text('More'),),),
-              //HomeScreen(),
-              //SearchScreen(),
-              //LikeScreen(),
-              //MoreScreen(),
+              SearchScreen(),
+              LikeScreen(),
+              MoreScreen(),
             ],
           ),
           bottomNavigationBar: Bottom(),

@@ -6,7 +6,7 @@ class Bottom extends StatelessWidget {
     return Container(
       color: Colors.black,
       child: Container(
-        height: 60,
+        height: 50,
         child: TabBar(
           labelColor: Colors.white,
           unselectedLabelColor: Colors.white60,
@@ -19,7 +19,7 @@ class Bottom extends StatelessWidget {
               ),
               child: Text(
                 'Home',
-                style: TextStyle(fontSize:10),
+                style: TextStyle(fontSize: 9),
               ),
             ),
             Tab(
@@ -29,7 +29,7 @@ class Bottom extends StatelessWidget {
               ),
               child: Text(
                 'Search',
-                style: TextStyle(fontSize: 10),
+                style: TextStyle(fontSize: 9),
               ),
             ),
             Tab(
@@ -38,8 +38,8 @@ class Bottom extends StatelessWidget {
                 size: 18,
               ),
               child: Text(
-                'Saved Contents',
-                style: TextStyle(fontSize: 10),textAlign: TextAlign.center,
+                'Saved Contents List',
+                style: TextStyle(fontSize: 9),
               ),
             ),
             Tab(

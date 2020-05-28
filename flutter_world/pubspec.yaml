@@ -21,11 +21,16 @@ dependencies:
     sdk: flutter
   carousel_slider: ^1.4.1
   cupertino_icons: ^0.1.2
+  flutter_linkify:
+  url_launcher:
+  cloud_firestore:
+  firebase_core:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   carousel_slider: ^1.4.1
+
 
 
 # For information on the generic Dart part of this file, see the

@@ -81,7 +81,7 @@ class _CarouselImageState extends State<CarouselImage> {
                         },
                       ),
                       Text(
-                        '내가 찜한 콘텐츠',
+                        'Stared Contents',
                         style: TextStyle(fontSize: 11),
                       ),
                     ],
@@ -102,7 +102,7 @@ class _CarouselImageState extends State<CarouselImage> {
                           padding: EdgeInsets.all(3),
                         ),
                         Text(
-                          '재생',
+                          'Play',
                           style: TextStyle(color: Colors.black),
                         ),
                       ],
@@ -126,7 +126,7 @@ class _CarouselImageState extends State<CarouselImage> {
                         },
                       ),
                       Text(
-                        '정보',
+                        'More',
                         style: TextStyle(fontSize: 11),
                       )
                     ],
